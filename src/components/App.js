@@ -10,9 +10,7 @@ class App extends React.Component {
   state = {
     videos: [],
     selectedVideo: null,
-    perPage: 20,
     currentPage: 0,
-    offset: 0,
     term: "",
     nextPageToken: "",
     prevPageToken: "",
